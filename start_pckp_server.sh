@@ -2,8 +2,7 @@
 #
 # Install and start a pckp server from https://github.com/krista-chan/pckp-server
 
-if ! command -v rustup &> /dev/null
-then
+if ! command -v rustup &> /dev/null; then
   >&2 echo "Rustup could not be found on path."
   echo "Would you like to install it? - y/n (default)"
   
